@@ -9,17 +9,15 @@ export const Header = () => {
 
   return (
     <header className="flex items-center justify-between py-6 border-b border-gray-800">
-      <div className="flex items-center gap-3">
+      <div className="flex items-center">
         <Image 
           src="/images/logo.png" 
-          alt="Globonet Education Logo" 
-          width={50} 
-          height={50}
+          alt="Globonet Education" 
+          width={250} 
+          height={80}
           className="object-contain"
+          priority
         />
-        <div className="text-2xl font-bold tracking-wider">
-          Globonet Education
-        </div>
       </div>
       <nav className="hidden lg:flex items-center space-x-8">
         {navLinks.map((link) => (

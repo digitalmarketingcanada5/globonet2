@@ -18,9 +18,12 @@ export const HeroSection = () => {
           demonstrated history of success and a dedication to quality, Globonet Education consulting stands as 
           your trusted partner for a successful study abroad experience.
         </p>
-        <button className="bg-lime-400 text-black font-bold px-10 py-4 rounded-lg text-lg hover:bg-lime-300 transition-all duration-300 transform hover:scale-105 shadow-[0_0_20px_rgba(190,242,100,0.5)]">
-          Get a free quote
-        </button>
+        <a 
+          href="#contact" 
+          className="bg-lime-400 text-black font-bold px-10 py-4 rounded-lg text-lg hover:bg-lime-300 transition-all duration-300 transform hover:scale-105 shadow-[0_0_20px_rgba(190,242,100,0.5)]"
+        >
+          Contact Us
+        </a>
       </div>
       <div className="w-full h-80 lg:h-[500px]">
         <ScholarCapIllustration />
