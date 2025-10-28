@@ -62,12 +62,13 @@ export const principlesData = [
 ];
 
 // Navigation links
-export const navLinks = ["About", "Services", "Principles", "Contact"];
+export const navLinks = ["About", "Services", "Principles", "Certificates", "Contact"];
 
 // Contact information
 export const contactInfo = {
   canada: {
     title: "Canada Office",
+    contact: "Mohammed Uddin (Managing Director)",
     address: "41 Cole Street, Toronto, ON, M5A 4N8",
     phone: "416-710-1032",
     email: "globoneteconsulting@mail.com"

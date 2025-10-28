@@ -14,6 +14,7 @@ export const Footer = () => {
       <div className="grid md:grid-cols-2 gap-12 text-center md:text-left">
         <div>
           <h3 className="text-2xl font-bold text-lime-400 mb-4">{contactInfo.canada.title}</h3>
+          <p className="text-gray-300">{contactInfo.canada.contact}</p>
           <p className="text-gray-300">{contactInfo.canada.address}</p>
           <p className="text-gray-300 mt-2">
             Mob/Text/WhatsApp: <a href={formatPhoneLink(contactInfo.canada.phone)} className="hover:text-white">{contactInfo.canada.phone}</a>

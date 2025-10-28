@@ -7,6 +7,7 @@ export { HeroSection } from './sections/HeroSection';
 export { MissionVisionSection } from './sections/MissionVisionSection';
 export { ServicesSection } from './sections/ServicesSection';
 export { PrinciplesSection } from './sections/PrinciplesSection';
+export { CertificatesSection } from './sections/CertificatesSection';
 
 // UI Components
 export { ServiceCard } from './ui/ServiceCard';
